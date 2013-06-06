@@ -232,6 +232,13 @@ public class FileHelper {
 		return getSpace(bdSpace, type, 2);
 	}
 
+	/**
+	 * 主要是兼容android2.2,2.3
+	 * @param bdSpace
+	 * @param type
+	 * @param scale
+	 * @return
+	 */
 	private static BigDecimal getSpace(BigDecimal bdSpace, String type,
 			int scale) {
 		if (bdSpace == null) {
